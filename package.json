@@ -1,0 +1,16 @@
+{
+  "name": "yahoo-interview",
+  "version": "1.0.0",
+  "description": "yahoo interview question",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karthik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3"
+  }
+}

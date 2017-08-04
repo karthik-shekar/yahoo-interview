@@ -1,0 +1,32 @@
+#left-menu {
+  background-color: #333;
+  height: 100vh;
+  color: #999;
+}
+
+#left-menu ul {
+  margin-top: 50px;
+  list-style: none;
+  padding: 50px 0 0 0;
+}
+
+#left-menu ul li {
+  display: block;
+  text-align: center;
+  padding: 2px;
+  border-bottom: 1px solid #999;
+}
+
+#app-header {
+  height: 50px;
+  max-height: 50px;
+  border-bottom: 1px solid #333;
+}
+
+#app-header .profile-icon {
+  height: 100%;
+  background-color: #ffcc99;
+  float: right;
+  width: 50px;
+  border-left: 1px solid #333;
+}

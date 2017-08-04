@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coderpad</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="content">
+      <header>
+          <ul id="list" class="row">
+            <li class="col-md-1 dropdown">
+              <a class="main-menu" data-toggle="dropdown">File</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" data-toggle="modal" data-target="#testModal">Delete</a></li>
+                <li><a href="#">Exit</a><li>
+              </ul>
+            </li>
+            <li class="col-md-1">
+              <a class="main-menu">View</a>
+            </li>
+            <li class="col-md-1">
+              <a class="main-menu">Edit</a>
+            </li>
+          </ul>
+        </header>
+        <p id="ajax-res" class="well hide"></p>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="testModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure?</p>
+            <p>This action is irreversible. lorem ipsum. the quick brown fix jumped over *lazy* dog</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary" id="ajax-btn">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

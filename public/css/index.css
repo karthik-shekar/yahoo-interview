@@ -1,0 +1,41 @@
+#content {
+  border: 1px dashed #999;
+  margin-top: 50px;
+  height: 500px;
+  padding: 10px;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+}
+
+#list li {
+  text-align: center;
+  padding: 2px;
+  color: #333;
+  border-right: 1px dashed #999;
+}
+
+#list li:first-of-type {
+  margin-left: 3px;
+}
+
+#list li:last-of-type {
+  border: none;
+}
+
+#list li a.main-menu {
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #333;
+}
+
+#list li a:hover {
+  background-color: #ccc;
+}
+
+.modal-header {
+  border-bottom: none;
+}
